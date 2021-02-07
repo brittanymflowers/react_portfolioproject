@@ -2,37 +2,151 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: "Montserrat", "Roboto", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.jumbotron {
+    background: linear-gradient(90deg,#173977,transparent,transparent), url("img/pikespeak.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    height: 250px;
+    margin:0px;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h1 {
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+}
+header h2 {
+    color:#ffffff88;
+}
+
+footer {
+    background-image: linear-gradient(#173977, gray);
+    padding: 20px 0;
+    color: white;
+}
+
+footer a {
+    color: #fff;
+}
+
+.btn-link {
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #173977;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
   }
+
+#footerButtons {
+    align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rounded {
+    border-radius: 1rem
 }
 
-.App-link {
-  color: #61dafb;
+.nav-pills .nav-link {
+    color: #555
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-pills .nav-link.active {
+    color: white
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.carousel {
+    width: 100%;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.carousel p {
+    font-size: 14px;
+}
+
+.cardConnect {
+    max-width: 24rem;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+
+.cardConnect p {
+    font-size: 12px;
+}
+
+.cardConnect img {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.card-footer {
+    border-bottom-left-radius: 50;
+    border-bottom-right-radius: 50;
+    text-align: center;
+}
+
+.titleHr {
+    width: 10%;
+    text-align: center;
+    display: block;
+    height: 5px;
+    background-color: rgba(0, 0, 0, .2);
+    border:none;
+    border-radius: 50px;
+
+}
+
+iframe, #building {
+    border-radius: 50px;
+}
+
+#map {
+    border-radius: 0px;
+}
+
+#formContainer {
+    background-image: url('img/email.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 300px;
 }
